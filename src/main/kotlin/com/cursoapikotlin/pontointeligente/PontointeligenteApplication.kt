@@ -16,6 +16,7 @@ class PontointeligenteApplication(val empresaRepository: EmpresaRepository,
 								  val funcionarioRepository: FuncionarioRepository) : CommandLineRunner{
 
 	override fun run(vararg args: String?){
+		//Codigo para teste inicial
 		empresaRepository.deleteAll()
 		funcionarioRepository.deleteAll()
 
