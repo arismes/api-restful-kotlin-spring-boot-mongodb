@@ -12,6 +12,7 @@ import com.cursoapikotlin.pontointeligente.repositories.LancamentoRepository
 import com.cursoapikotlin.pontointeligente.utils.SenhaUtils
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
 import org.springframework.boot.runApplication
 import java.text.SimpleDateFormat
 import java.util.*
