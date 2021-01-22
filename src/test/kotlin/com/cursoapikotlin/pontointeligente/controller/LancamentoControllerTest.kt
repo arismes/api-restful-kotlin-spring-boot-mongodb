@@ -108,7 +108,7 @@ class LancamentoControllerTest {
 
         mvc!!.perform(MockMvcRequestBuilders.delete(urlBase + idLancamento)
             .accept(MediaType.APPLICATION_JSON))
-            .andExpect(status().isForbidden())
+            .andExpect(status().isOk())
     }
 
     @Throws(JsonProcessingException::class)
