@@ -18,7 +18,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 @SpringBootApplication
-class PontointeligenteApplication(val empresaRepository: EmpresaRepository,
+class PontointeligenteApplication/*(val empresaRepository: EmpresaRepository,
 								  val funcionarioRepository: FuncionarioRepository,
 								  val lancamentoRepository: LancamentoRepository) : CommandLineRunner{
 
@@ -52,7 +52,7 @@ class PontointeligenteApplication(val empresaRepository: EmpresaRepository,
 		System.out.println("lANCAMENTO1 ID: " + lancamento1.id)
 	}
 }
-
+*/
 fun main(args: Array<String>) {
 	runApplication<PontointeligenteApplication>(*args)
 }
